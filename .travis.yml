@@ -4,3 +4,4 @@ php:
 before_script:
   - sudo apt-get install nginx
   - sudo apt-get install php5-fpm
+script: curl_hello.sh

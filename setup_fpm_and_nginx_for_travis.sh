@@ -1,5 +1,6 @@
 #!/bin/bash
-apt-get install nginx php5-fpm
+apt-get install nginx
+apt-get install php5-fpm
 
 cat /etc/nginx/nginx.conf
 ls /etc/nginx

@@ -1,6 +1,9 @@
 #!/bin/bash
 base_url="http://localhost:8080`pwd`"
-result=`curl $base_url/echo_hello.php`
+curl --silent $base_url/echo_hello.php
+result=`curl --silent $base_url/echo_hello.php`
+
+echo "does it work?"
 
 if [ "$result" == "hello" ]
 then
